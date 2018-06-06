@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class MyFrame extends JFrame{
 
-    private JPanel mainPanel;
+    public JPanel mainPanel;
     private JTextArea textAreaMatrix;
     private JTextField textFieldStart;
     private JTextField textFieldFinish;
