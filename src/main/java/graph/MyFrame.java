@@ -59,7 +59,7 @@ public class MyFrame extends JFrame{
                         for (int i = 0, size = stringsMatrix.length; i < size; i++) {
                             tmpString = stringsMatrix[i].split(" "); // массив символов i-й строки
                             for (int j = 0, size2 = tmpString.length; j < size2; j++)
-                                graphMatrix[i][j] = tmpString[j].equals("1") ? true : false;
+                                graphMatrix[i][j] = tmpString[j].equals("1") ? true : false; // check error
                         }
                         //System.out.println(graphMatrix[Integer.parseInt(textFieldStart.getText())][Integer.parseInt(textFieldFinish.getText())]);
                         start = Integer.parseInt(textFieldStart.getText());
