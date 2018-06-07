@@ -151,19 +151,19 @@ public class MyFrameTest {
         window.textBox("textFieldFinish").requireText("");
     }
 
-    @Test
-    public void textAreaCheck() {
-        window.textBox("textAreaMatrix").enterText("bad Data");
-        window.textBox("textFieldStart").enterText("0");
-        window.textBox("textFieldFinish").enterText("4");
-        window.button("buttonFindWay").click();
-        window.textBox("textFieldWay").requireText("");
-        window.button("buttonClear").click();
-        window.textBox("textFieldWay").requireText("");
-        window.textBox("textAreaMatrix").requireText("");
-        window.textBox("textFieldStart").requireText("");
-        window.textBox("textFieldFinish").requireText("");
-    }
+//    @Test
+//    public void textAreaCheck() {
+//        window.textBox("textAreaMatrix").enterText("bad Data");
+//        window.textBox("textFieldStart").enterText("0");
+//        window.textBox("textFieldFinish").enterText("4");
+//        window.button("buttonFindWay").click();
+//        window.textBox("textFieldWay").requireText("");
+//        window.button("buttonClear").click();
+//        window.textBox("textFieldWay").requireText("");
+//        window.textBox("textAreaMatrix").requireText("");
+//        window.textBox("textFieldStart").requireText("");
+//        window.textBox("textFieldFinish").requireText("");
+//    }
 
     @After
     public void tearDown() {
