@@ -80,8 +80,8 @@
                     <version>2.18</version>
                     <configuration>
                         <includes>
-                            <!--<include>**/*BlackBox.java</include>-->
-                            <!--<include>**/*WhiteBox.java</include>-->
+                            <include>**/*BlackBox.java</include>
+                            <include>**/*WhiteBox.java</include>
                             <include>**/*MyFrameTest.java</include>
                         </includes>
                     </configuration>
